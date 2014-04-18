@@ -1,0 +1,21 @@
+PATH
+  remote: ../easymvc
+  specs:
+    easymvc (0.0.1)
+      erubis
+      rack
+      sqlite3
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    erubis (2.7.0)
+    rack (1.5.2)
+    sqlite3 (1.3.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  easymvc!
+  sqlite3
